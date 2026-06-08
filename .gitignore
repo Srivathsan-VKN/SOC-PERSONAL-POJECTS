@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Environment / Secrets
+.env
+*.env
+!.env.example
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Test / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Project-specific
+reports/*.md
+!reports/.gitkeep
+data/mitre/*.json
+!data/mitre/.gitkeep
+*.log
