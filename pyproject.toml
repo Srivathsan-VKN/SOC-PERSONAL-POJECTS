@@ -45,6 +45,9 @@ packages = ["src/triage_assistant"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
+markers = [
+    "integration: tests that hit live external services (Wazuh, Ollama, NVD)",
+]
 
 [tool.ruff]
 line-length = 100
